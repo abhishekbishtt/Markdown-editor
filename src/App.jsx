@@ -320,7 +320,7 @@ ${markdown}
 
             <div className="toolbar-divider" />
 
-            <ToolbarButton icon={Link} onClick={() => insertMarkdown('[Text](https://medit.pages.dev/)', false)} title="Link" />
+            <ToolbarButton icon={Link} onClick={() => insertMarkdown('[Text](https://example.com)', false)} title="Link" />
             <ToolbarButton icon={Image} onClick={() => insertMarkdown('![Alt text](/favicon.ico)', false)} title="Image" />
             <ToolbarButton icon={ChevronDown} onClick={() => insertMarkdown('<br>', false)} title="Line Break" />
 
